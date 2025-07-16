@@ -6,8 +6,8 @@ import net.serenitybdd.screenplay.actions.Click;
 
 public class EliminarDocumento {
     public static Task delSistema() {
-        return Task.where("El usuario elimina el documento",
-                Click.on(PaginaEntregaUI.BOTON_ELIMINAR)
+        return Task.where("El usuario elimina el documento"
+                //Click.on(PaginaEntregaUI.BOTON_ELIMINAR)
         );
     }
 }

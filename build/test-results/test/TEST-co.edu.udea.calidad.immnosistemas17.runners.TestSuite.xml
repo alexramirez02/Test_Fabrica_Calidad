@@ -1,70 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="co.edu.udea.calidad.immnosistemas17.runners.TestSuite" tests="1" skipped="0" failures="1" errors="0" timestamp="2025-07-12T20:25:52.061Z" hostname="alex-SVE14113ELW" time="0.0">
+<testsuite name="co.edu.udea.calidad.immnosistemas17.runners.TestSuite" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00Z" hostname="alex-SVE14113ELW" time="0.0">
   <properties/>
-  <testcase name="classMethod" classname="co.edu.udea.calidad.immnosistemas17.runners.TestSuite" time="0.0">
-    <failure message="java.util.ServiceConfigurationError: net.thucydides.model.reports.AcceptanceTestReporter: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter not a subtype" type="java.util.ServiceConfigurationError">java.util.ServiceConfigurationError: net.thucydides.model.reports.AcceptanceTestReporter: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter not a subtype
-	at java.base/java.util.ServiceLoader.fail(ServiceLoader.java:593)
-	at java.base/java.util.ServiceLoader$LazyClassPathLookupIterator.hasNextService(ServiceLoader.java:1244)
-	at java.base/java.util.ServiceLoader$LazyClassPathLookupIterator.hasNext(ServiceLoader.java:1273)
-	at java.base/java.util.ServiceLoader$2.hasNext(ServiceLoader.java:1309)
-	at java.base/java.util.ServiceLoader$3.hasNext(ServiceLoader.java:1393)
-	at net.thucydides.model.reports.ReportService.getDefaultReporters(ReportService.java:229)
-	at net.serenitybdd.core.SerenityReports.getReportService(SerenityReports.java:12)
-	at io.cucumber.core.plugin.SerenityReporter.getReportService(SerenityReporter.java:385)
-	at io.cucumber.core.plugin.SerenityReporter.generateReports(SerenityReporter.java:996)
-	at io.cucumber.core.plugin.SerenityReporter.handleTestRunFinished(SerenityReporter.java:380)
-	at io.cucumber.core.eventbus.AbstractEventPublisher.send(AbstractEventPublisher.java:51)
-	at io.cucumber.core.eventbus.AbstractEventBus.send(AbstractEventBus.java:12)
-	at io.cucumber.core.runtime.SynchronizedEventBus.send(SynchronizedEventBus.java:47)
-	at io.cucumber.core.runtime.CucumberExecutionContext.emitTestRunFinished(CucumberExecutionContext.java:118)
-	at io.cucumber.core.runtime.CucumberExecutionContext.finishTestRun(CucumberExecutionContext.java:105)
-	at io.cucumber.junit.CucumberSerenityBaseRunner$RunCucumber.evaluate(CucumberSerenityBaseRunner.java:366)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:112)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:40)
-	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:54)
-	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:53)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
-	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:92)
-	at jdk.proxy1/jdk.proxy1.$Proxy4.processTestClass(Unknown Source)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker$2.run(TestWorker.java:183)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:132)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:103)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:63)
-	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
-	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:121)
-	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
-	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
-	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
-</failure>
-  </testcase>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[[Test worker] INFO  - ?[96m
-
--------------------------------------------------------------------------------------
-     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
-    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
-   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
-    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
-.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
-|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
-                                                                                     
- News and tutorials at https://serenity-bdd.info                                     
- Documentation at https://serenity-bdd.github.io                                     
- Test Automation Training and Coaching: https://www.serenity-dojo.com                
- Commercial Support: https://www.serenity-dojo.com/serenity-bdd-enterprise-support   
- Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
--------------------------------------------------------------------------------------
-?[0m
-[Test worker] INFO  - Test Suite Started: Se puede acceder al aplicativo de entrega
-[Test worker] INFO  - Test Suite Started: Se puede acceder al aplicativo de entrega
+  <system-err><![CDATA[SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
 ]]></system-err>
 </testsuite>

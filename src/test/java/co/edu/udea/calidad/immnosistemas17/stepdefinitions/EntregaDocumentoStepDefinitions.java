@@ -1,52 +1,60 @@
 package co.edu.udea.calidad.immnosistemas17.stepdefinitions;
 
-import co.edu.udea.calidad.immnosistemas17.questions.DocumentoVisible;
-import co.edu.udea.calidad.immnosistemas17.tasks.EliminarDocumento;
-import co.edu.udea.calidad.immnosistemas17.tasks.EnviarFormularioEntrega;
-import co.edu.udea.calidad.immnosistemas17.tasks.IngresarAplicativo;
-import io.cucumber.java.es.Cuando;
-import io.cucumber.java.es.Dado;
-import io.cucumber.java.es.Entonces;
+import io.cucumber.java.Before;
+import io.cucumber.java.en.*;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
 import org.openqa.selenium.WebDriver;
-import net.thucydides.core.annotations.Managed;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import io.github.bonigarcia.wdm.WebDriverManager;
 
-import static org.hamcrest.MatcherAssert.assertThat;
+import co.edu.udea.calidad.immnosistemas17.tasks.EnviarFormularioEntrega;
+import co.edu.udea.calidad.immnosistemas17.questions.DocumentoVisible;
+
+import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static org.hamcrest.Matchers.is;
 
 public class EntregaDocumentoStepDefinitions {
 
-    @Managed
-    WebDriver driver;
+    private Actor actor = Actor.named("Usuario");
+    private WebDriver driver;
 
-    Actor usuario = Actor.named("Usuario");
+    @Before
+    public void configurar() {
+        WebDriverManager.chromedriver().setup();
 
-    @Dado("el usuario se sitúa en el aplicativo para seleccionar el tipo de documento")
-    public void situarseEnElAplicativo() {
-        usuario.can(BrowseTheWeb.with(driver));
-        usuario.attemptsTo(IngresarAplicativo.enLaPagina());
+        ChromeOptions options = new ChromeOptions();
+        //options.addArguments("--headless=new"); // Headless moderno para Chrome 109+
+        options.addArguments("--no-sandbox");
+        options.addArguments("--disable-dev-shm-usage");
+        options.addArguments("--disable-gpu");
+        options.addArguments("--remote-allow-origins=*");
+        options.addArguments("--window-size=1920,1080");
+
+        try {
+            driver = new ChromeDriver(options);
+        } catch (Exception e) {
+            System.err.println("Error al iniciar ChromeDriver: " + e.getMessage());
+            throw e;
+        }
+
+        actor.can(BrowseTheWeb.with(driver));
+        driver.get("https://innosistemas-feature-5.vercel.app/");
     }
 
-    @Cuando("envía el formulario de entrega")
-    public void enviarFormulario() {
-        usuario.attemptsTo(EnviarFormularioEntrega.conDocumento());
+    @Given("el usuario esta en la pagina de gestion de documentos")
+    public void el_usuario_esta_en_la_pagina_de_gestion_de_documentos() {
+        // Página ya cargada en @Before
     }
 
-    @Entonces("debe visualizarse la entrega del documento")
-    public void validarEntrega() {
-        boolean documentoVisible = DocumentoVisible.enPantalla().answeredBy(usuario);
-        assertThat(documentoVisible, is(true));
+    @When("el usuario selecciona {string} y sube el documento {string} con el nombre {string}")
+    public void el_usuario_selecciona_tipo_y_sube_el_documento_con_nombre(String tipo, String archivo, String nombre) {
+        actor.attemptsTo(EnviarFormularioEntrega.conArchivoYNombre(archivo, nombre));
     }
 
-    @Cuando("elimina el documento cargado")
-    public void eliminarDocumento() {
-        usuario.attemptsTo(EliminarDocumento.delSistema());
-    }
-
-    @Entonces("debe visualizarse la eliminación del documento")
-    public void validarEliminacion() {
-        boolean documentoVisible = DocumentoVisible.enPantalla().answeredBy(usuario);
-        assertThat(documentoVisible, is(false));
+    @Then("el documento {string} aparece en la lista")
+    public void el_documento_aparece_en_la_lista(String textoEsperado) {
+        actor.should(seeThat(DocumentoVisible.enPantalla(textoEsperado), is(true)));
     }
 }

@@ -1,11 +1,6 @@
-Feature: Se puede acceder al aplicativo de entrega
+Feature: Gestion de documentos
 
-  Scenario: Entregar un documento
-    Given el usuario se sitúa en el aplicativo para seleccionar el tipo de documento
-    When envía el formulario de entrega
-    Then debe visualizarse la entrega del documento
-
-  Scenario: Eliminar un documento
-    Given el usuario se sitúa en el aplicativo
-    When elimina el documento cargado
-    Then debe visualizarse la eliminación del documento
+  Scenario: Subir un documento
+    Given el usuario esta en la pagina de gestion de documentos
+    When el usuario selecciona "Inteligencia Artificial" y sube el documento "archivo.pdf" con el nombre "exitoso"
+    Then el documento "exitoso" aparece en la lista

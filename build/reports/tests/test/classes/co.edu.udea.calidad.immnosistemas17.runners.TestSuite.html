@@ -23,13 +23,13 @@
 <tr>
 <td>
 <div class="infoBox" id="tests">
-<div class="counter">1</div>
+<div class="counter">0</div>
 <p>tests</p>
 </div>
 </td>
 <td>
 <div class="infoBox" id="failures">
-<div class="counter">1</div>
+<div class="counter">0</div>
 <p>failures</p>
 </div>
 </td>
@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0s</div>
+<div class="counter">-</div>
 <p>duration</p>
 </div>
 </td>
@@ -50,8 +50,8 @@
 </div>
 </td>
 <td>
-<div class="infoBox failures" id="successRate">
-<div class="percent">0%</div>
+<div class="infoBox success" id="successRate">
+<div class="percent">-</div>
 <p>successful</p>
 </div>
 </td>
@@ -61,67 +61,12 @@
 <div class="tab-container">
 <ul class="tabLinks">
 <li>
-<a href="#">Failed tests</a>
-</li>
-<li>
 <a href="#">Tests</a>
 </li>
 <li>
 <a href="#">Standard error</a>
 </li>
 </ul>
-<div class="tab">
-<h2>Failed tests</h2>
-<div class="test">
-<a name="classMethod"></a>
-<h3 class="failures">classMethod</h3>
-<span class="code">
-<pre>java.util.ServiceConfigurationError: net.thucydides.model.reports.AcceptanceTestReporter: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter not a subtype
-	at java.base/java.util.ServiceLoader.fail(ServiceLoader.java:593)
-	at java.base/java.util.ServiceLoader$LazyClassPathLookupIterator.hasNextService(ServiceLoader.java:1244)
-	at java.base/java.util.ServiceLoader$LazyClassPathLookupIterator.hasNext(ServiceLoader.java:1273)
-	at java.base/java.util.ServiceLoader$2.hasNext(ServiceLoader.java:1309)
-	at java.base/java.util.ServiceLoader$3.hasNext(ServiceLoader.java:1393)
-	at net.thucydides.model.reports.ReportService.getDefaultReporters(ReportService.java:229)
-	at net.serenitybdd.core.SerenityReports.getReportService(SerenityReports.java:12)
-	at io.cucumber.core.plugin.SerenityReporter.getReportService(SerenityReporter.java:385)
-	at io.cucumber.core.plugin.SerenityReporter.generateReports(SerenityReporter.java:996)
-	at io.cucumber.core.plugin.SerenityReporter.handleTestRunFinished(SerenityReporter.java:380)
-	at io.cucumber.core.eventbus.AbstractEventPublisher.send(AbstractEventPublisher.java:51)
-	at io.cucumber.core.eventbus.AbstractEventBus.send(AbstractEventBus.java:12)
-	at io.cucumber.core.runtime.SynchronizedEventBus.send(SynchronizedEventBus.java:47)
-	at io.cucumber.core.runtime.CucumberExecutionContext.emitTestRunFinished(CucumberExecutionContext.java:118)
-	at io.cucumber.core.runtime.CucumberExecutionContext.finishTestRun(CucumberExecutionContext.java:105)
-	at io.cucumber.junit.CucumberSerenityBaseRunner$RunCucumber.evaluate(CucumberSerenityBaseRunner.java:366)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:112)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:40)
-	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:54)
-	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:53)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
-	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:92)
-	at jdk.proxy1/jdk.proxy1.$Proxy4.processTestClass(Unknown Source)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker$2.run(TestWorker.java:183)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:132)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:103)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:63)
-	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
-	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:121)
-	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
-	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
-	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
-</pre>
-</span>
-</div>
-</div>
 <div class="tab">
 <h2>Tests</h2>
 <table>
@@ -132,35 +77,14 @@
 <th>Result</th>
 </tr>
 </thead>
-<tr>
-<td class="failures">classMethod</td>
-<td class="failures">0s</td>
-<td class="failures">failed</td>
-</tr>
 </table>
 </div>
 <div class="tab">
 <h2>Standard error</h2>
 <span class="code">
-<pre>[Test worker] INFO  - ?[96m
-
--------------------------------------------------------------------------------------
-     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
-    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
-   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
-    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
-.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
-|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
-                                                                                     
- News and tutorials at https://serenity-bdd.info                                     
- Documentation at https://serenity-bdd.github.io                                     
- Test Automation Training and Coaching: https://www.serenity-dojo.com                
- Commercial Support: https://www.serenity-dojo.com/serenity-bdd-enterprise-support   
- Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
--------------------------------------------------------------------------------------
-?[0m
-[Test worker] INFO  - Test Suite Started: Se puede acceder al aplicativo de entrega
-[Test worker] INFO  - Test Suite Started: Se puede acceder al aplicativo de entrega
+<pre>SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
 </pre>
 </span>
 </div>
@@ -172,7 +96,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="https://www.gradle.org">Gradle 8.13</a> at 12/07/2025, 3:25:52 p. m.</p>
+<a href="https://www.gradle.org">Gradle 8.13</a> at 15/07/2025, 11:31:58 p. m.</p>
 </div>
 </div>
 </body>

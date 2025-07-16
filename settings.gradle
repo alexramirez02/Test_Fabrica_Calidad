@@ -1,7 +1,9 @@
 pluginManagement {
     repositories {
-        mavenLocal()
         gradlePluginPortal()
+        mavenCentral()
     }
 }
-rootProject.name = 'Test_Atumatizacion'
+
+rootProject.name = 'testfabrica'
+

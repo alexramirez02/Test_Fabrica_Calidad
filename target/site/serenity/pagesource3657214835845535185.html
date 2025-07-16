@@ -1,0 +1,463 @@
+<html lang='en'><head><link href='prism/prism.css' rel='stylesheet' /></head><body><script src='prism/prism.js'></script><body><div><pre><code class='language-html'>&lt;html lang="en"&gt;<br/>
+ &lt;head&gt;<br/>
+  &lt;meta charset="utf-8"&gt;<br/>
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;<br/>
+  &lt;link rel="preload" href="/_next/static/media/e4af272ccee01ff0-s.p.woff2" as="font" crossorigin="" type="font/woff2"&gt;<br/>
+  &lt;link rel="stylesheet" href="/_next/static/css/cf5cee92062f09f3.css" data-precedence="next"&gt;<br/>
+  &lt;link rel="preload" as="script" fetchpriority="low" href="/_next/static/chunks/webpack-d0dfca050fcf24d7.js"&gt;<br/>
+  &lt;script src="/_next/static/chunks/96e220d1-5c29c57173e1abba.js" async&gt;&lt;/script&gt;<br/>
+  &lt;script src="/_next/static/chunks/770-61a3072c952cb88f.js" async&gt;&lt;/script&gt;<br/>
+  &lt;script src="/_next/static/chunks/main-app-dbae34c0da966e23.js" async&gt;&lt;/script&gt;<br/>
+  &lt;script src="/_next/static/chunks/370-3c5f14b362c4d564.js" async&gt;&lt;/script&gt;<br/>
+  &lt;script src="/_next/static/chunks/544-ca27ea0ff03d2a80.js" async&gt;&lt;/script&gt;<br/>
+  &lt;script src="/_next/static/chunks/app/layout-f6b55c9cde4478bd.js" async&gt;&lt;/script&gt;<br/>
+  &lt;script src="/_next/static/chunks/980-26bd276fa2c92d34.js" async&gt;&lt;/script&gt;<br/>
+  &lt;script src="/_next/static/chunks/app/page-9f110ec64523e65a.js" async&gt;&lt;/script&gt;<br/>
+  &lt;meta name="next-size-adjust" content=""&gt;<br/>
+  &lt;title&gt;Sistema de gestion de documentos y entrega&lt;/title&gt;<br/>
+  &lt;meta name="description" content="Gestion de documentos y entrega"&gt;<br/>
+  &lt;link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="16x16"&gt;<br/>
+  &lt;script&gt;document.querySelectorAll('body link[rel="icon"], body link[rel="apple-touch-icon"]').forEach(el =&gt; document.head.appendChild(el))&lt;/script&gt;<br/>
+  &lt;script src="/_next/static/chunks/polyfills-42372ed130431b0a.js" nomodule=""&gt;&lt;/script&gt;<br/>
+  &lt;script&gt;(window[Symbol.for("ApolloSSRDataTransport")] ??= []).push({"rehydrate":{"«Rjb»":{"data":undefined,"loading":true,"networkStatus":1,"called":true},"«R29tb»":{"data":undefined,"loading":true,"networkStatus":1,"called":true},"«R2htb»":{"data":undefined,"loading":true,"networkStatus":1,"called":true},"«R2ptb»":{"data":undefined,"loading":true,"networkStatus":1,"called":true},"«R2ptbH1»":{"data":undefined,"loading":true,"networkStatus":1,"called":true}},"events":[]})&lt;/script&gt;<br/>
+ &lt;/head&gt;<br/>
+ &lt;body class="__className_e8ce0c flex min-h-screen flex-col antialiased"&gt;<br/>
+  &lt;div class="flex h-22 w-full justify-between bg-gray-300 pl-3 text-black"&gt;<br/>
+   &lt;div class="flex items-center justify-center text-xl font-bold sm:text-2xl lg:text-3xl"&gt;<br/>
+    &lt;header class="min-w-0 flex-shrink"&gt;<br/>
+     Sistema de gestion de documentos y entrega<br/>
+    &lt;/header&gt;<br/>
+   &lt;/div&gt;<br/>
+   &lt;div class="flex items-center pr-3"&gt;<br/>
+    &lt;button data-slot="dropdown-menu-trigger" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50 size-9 relative mr-10 sm:mr-0" type="button" id="radix-«R3jb»" aria-haspopup="menu" aria-expanded="false" data-state="closed"&gt;<br/>
+     &lt;svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-bell min-h-[20px] min-w-[20px]" aria-hidden="true"&gt;<br/>
+      &lt;path d="M10.268 21a2 2 0 0 0 3.464 0"&gt;&lt;/path&gt;&lt;path d="M3.262 15.326A1 1 0 0 0 4 17h16a1 1 0 0 0 .74-1.673C19.41 13.956 18 12.499 18 8A6 6 0 0 0 6 8c0 4.499-1.411 5.956-2.738 7.326"&gt;&lt;/path&gt;<br/>
+     &lt;/svg&gt;&lt;/button&gt;<br/>
+    &lt;p class="mr-5 ml-5 hidden text-center text-sm font-medium md:inline-block lg:mr-15 lg:text-base"&gt;Hola, &lt;br&gt; &lt;&lt;&lt;!-- --&gt;Wilmer Soto&gt;&gt;&lt;/p&gt;<br/>
+    &lt;svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" fill="currentColor" aria-hidden="true" data-slot="icon" class="w-6 mr-4"&gt;<br/>
+     &lt;path fill-rule="evenodd" d="M7.5 6a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0ZM3.751 20.105a8.25 8.25 0 0 1 16.498 0 .75.75 0 0 1-.437.695A18.683 18.683 0 0 1 12 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 0 1-.437-.695Z" clip-rule="evenodd"&gt;&lt;/path&gt;<br/>
+    &lt;/svg&gt;<br/>
+   &lt;/div&gt;<br/>
+  &lt;/div&gt;<br/>
+  &lt;main class="flex-grow overflow-y-auto py-5 md:pb-0 lg:py-5"&gt;<br/>
+   &lt;!--$--&gt;<br/>
+   &lt;div class="mr-5 ml-5 flex flex-col gap-y-5 sm:mr-10 sm:ml-10 lg:mr-18 lg:ml-18"&gt;<br/>
+    &lt;div&gt;<br/>
+     &lt;h1 class="mb-3 text-xl font-semibold sm:text-2xl"&gt;Gestión de Documentos&lt;/h1&gt;&lt;button data-slot="popover-trigger" class="inline-flex items-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50 h-9 px-4 py-2 has-[&gt;svg]:px-3 w-[220px] justify-between" role="combobox" aria-expanded="false" type="button" aria-haspopup="dialog" aria-controls="radix-«r0»" data-state="closed"&gt;Inteligencia Artificial<br/>
+      &lt;svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down ml-2 h-4 w-4 shrink-0 opacity-50" aria-hidden="true"&gt;<br/>
+       &lt;path d="m6 9 6 6 6-6"&gt;&lt;/path&gt;<br/>
+      &lt;/svg&gt;&lt;/button&gt;<br/>
+    &lt;/div&gt;<br/>
+    &lt;div class="flex flex-col rounded-md border-1 border-black px-6 pt-2 pb-5 shadow-lg lg:mr-40"&gt;<br/>
+     &lt;div class="flex w-full flex-col gap-2 lg:w-xl"&gt;<br/>
+      &lt;h1 class="mb-3 text-xl font-semibold sm:text-2xl"&gt;Subir Documento&lt;/h1&gt;&lt;label data-slot="label" class="flex items-center gap-2 select-none group-data-[disabled=true]:pointer-events-none group-data-[disabled=true]:opacity-50 peer-disabled:cursor-not-allowed peer-disabled:opacity-50 text-sm font-medium" for="text"&gt;Nombre del documento&lt;/label&gt;<br/>
+      &lt;input type="text" data-slot="input" class="file:text-foreground placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground dark:bg-input/30 border-input flex h-9 w-full min-w-0 rounded-md border bg-transparent px-3 py-1 text-base shadow-xs transition-[color,box-shadow] outline-none file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive mb-3" placeholder="Ingrese el nombre del documento" value="exitoso"&gt;&lt;label class="text-sm font-medium"&gt;Archivo (PDF, DOCX, max. 15MB)&lt;/label&gt;<br/>
+      &lt;input type="file" data-slot="input" class="file:text-foreground placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground dark:bg-input/30 border-input flex h-9 min-w-0 rounded-md border bg-transparent px-3 py-1 text-base shadow-xs transition-[color,box-shadow] outline-none file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive w-3/4 lg:w-1/2" accept=".pdf, application/pdf, .docx, application/vnd.openxmlformats-officedocument.wordprocessingml.document"&gt;&lt;button data-slot="button" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-primary text-primary-foreground shadow-xs hover:bg-primary/90 h-9 px-4 py-2 has-[&gt;svg]:px-3 w-2/4 md:w-2/7"&gt;Subir documento&lt;/button&gt;<br/>
+     &lt;/div&gt;<br/>
+    &lt;/div&gt;<br/>
+    &lt;div&gt;<br/>
+     &lt;h1 class="mb-3 text-xl font-semibold sm:text-2xl"&gt;Documentos del proyecto&lt;/h1&gt;<br/>
+     &lt;div dir="ltr" data-orientation="horizontal" data-slot="tabs" class="flex flex-col gap-2 w-full"&gt;<br/>
+      &lt;div role="tablist" aria-orientation="horizontal" data-slot="tabs-list" class="bg-muted text-muted-foreground h-9 items-center justify-center rounded-lg p-[3px] grid w-auto grid-cols-2 lg:w-[400px]" tabindex="0" data-orientation="horizontal" style="outline: none;"&gt;<br/>
+       &lt;button type="button" role="tab" aria-selected="true" aria-controls="radix-«r9»-content-all" data-state="active" id="radix-«r9»-trigger-all" data-slot="tabs-trigger" class="data-[state=active]:bg-background dark:data-[state=active]:text-foreground focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input dark:data-[state=active]:bg-input/30 text-foreground dark:text-muted-foreground inline-flex h-[calc(100%-1px)] flex-1 items-center justify-center gap-1.5 rounded-md border border-transparent px-2 py-1 text-sm font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4" tabindex="-1" data-orientation="horizontal" data-radix-collection-item=""&gt;Todos&lt;/button&gt;&lt;button type="button" role="tab" aria-selected="false" aria-controls="radix-«r9»-content-user" data-state="inactive" id="radix-«r9»-trigger-user" data-slot="tabs-trigger" class="data-[state=active]:bg-background dark:data-[state=active]:text-foreground focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:outline-ring dark:data-[state=active]:border-input dark:data-[state=active]:bg-input/30 text-foreground dark:text-muted-foreground inline-flex h-[calc(100%-1px)] flex-1 items-center justify-center gap-1.5 rounded-md border border-transparent px-2 py-1 text-sm font-medium whitespace-nowrap transition-[color,box-shadow] focus-visible:ring-[3px] focus-visible:outline-1 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow-sm [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 [&amp;_svg:not([class*='size-'])]:size-4" tabindex="-1" data-orientation="horizontal" data-radix-collection-item=""&gt;Mis documentos&lt;/button&gt;<br/>
+      &lt;/div&gt;<br/>
+      &lt;div data-state="active" data-orientation="horizontal" role="tabpanel" aria-labelledby="radix-«r9»-trigger-all" id="radix-«r9»-content-all" tabindex="0" data-slot="tabs-content" class="flex-1 outline-none" style="animation-duration: 0s;"&gt;<br/>
+       &lt;div class="flex flex-row items-end gap-x-4 overflow-x-auto pb-4"&gt;<br/>
+        &lt;div data-slot="card" class="bg-card text-card-foreground gap-6 border py-6 shadow-sm mt-2 flex h-full w-full flex-none flex-col rounded-sm sm:min-h-[307px] sm:max-w-[396px]"&gt;<br/>
+         &lt;div data-slot="card-header" class="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start gap-1.5 px-6 has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6"&gt;<br/>
+          &lt;div data-slot="card-title" class="font-semibold text-2xl"&gt;<br/>
+           &lt;div class="flex w-full items-center justify-between"&gt;<br/>
+            Archivo de profesor<br/>
+            &lt;svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-boxes min-h-[31px] min-w-[31px] stroke-[1.5]" aria-hidden="true"&gt;<br/>
+             &lt;path d="M2.97 12.92A2 2 0 0 0 2 14.63v3.24a2 2 0 0 0 .97 1.71l3 1.8a2 2 0 0 0 2.06 0L12 19v-5.5l-5-3-4.03 2.42Z"&gt;&lt;/path&gt;&lt;path d="m7 16.5-4.74-2.85"&gt;&lt;/path&gt;&lt;path d="m7 16.5 5-3"&gt;&lt;/path&gt;&lt;path d="M7 16.5v5.17"&gt;&lt;/path&gt;&lt;path d="M12 13.5V19l3.97 2.38a2 2 0 0 0 2.06 0l3-1.8a2 2 0 0 0 .97-1.71v-3.24a2 2 0 0 0-.97-1.71L17 10.5l-5 3Z"&gt;&lt;/path&gt;&lt;path d="m17 16.5-5-3"&gt;&lt;/path&gt;&lt;path d="m17 16.5 4.74-2.85"&gt;&lt;/path&gt;&lt;path d="M17 16.5v5.17"&gt;&lt;/path&gt;&lt;path d="M7.97 4.42A2 2 0 0 0 7 6.13v4.37l5 3 5-3V6.13a2 2 0 0 0-.97-1.71l-3-1.8a2 2 0 0 0-2.06 0l-3 1.8Z"&gt;&lt;/path&gt;&lt;path d="M12 8 7.26 5.15"&gt;&lt;/path&gt;&lt;path d="m12 8 4.74-2.85"&gt;&lt;/path&gt;&lt;path d="M12 13.5V8"&gt;&lt;/path&gt;<br/>
+            &lt;/svg&gt;<br/>
+           &lt;/div&gt;<br/>
+          &lt;/div&gt;<br/>
+         &lt;/div&gt;<br/>
+         &lt;div data-slot="card-content" class="px-6"&gt;<br/>
+          &lt;div class="font-extralight text-gray-500"&gt;<br/>
+           &lt;p&gt;Autor: Leonardo&lt;/p&gt;<br/>
+           &lt;p&gt;Subido: 10/06/2025&lt;/p&gt;<br/>
+           &lt;p&gt;Modificado: 10/06/2025&lt;/p&gt;<br/>
+           &lt;p&gt;Tamaño: 5 MB&lt;/p&gt;<br/>
+          &lt;/div&gt;<br/>
+         &lt;/div&gt;<br/>
+         &lt;div data-slot="card-footer" class="items-center px-6 [.border-t]:pt-6 flex flex-col gap-y-2"&gt;<br/>
+          &lt;div class="flex min-h-10 w-full justify-between"&gt;&lt;/div&gt;<br/>
+          &lt;div class="flex w-full"&gt;<br/>
+           &lt;button data-slot="button" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50 h-9 px-4 py-2 has-[&gt;svg]:px-3 w-full border-2 border-gray-400"&gt;<br/>
+            &lt;svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-download" aria-hidden="true"&gt;<br/>
+             &lt;path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"&gt;&lt;/path&gt;&lt;polyline points="7 10 12 15 17 10"&gt;&lt;/polyline&gt;&lt;line x1="12" x2="12" y1="15" y2="3"&gt;&lt;/line&gt;<br/>
+            &lt;/svg&gt;Descargar&lt;/button&gt;<br/>
+          &lt;/div&gt;<br/>
+         &lt;/div&gt;<br/>
+        &lt;/div&gt;<br/>
+        &lt;div data-slot="card" class="bg-card text-card-foreground gap-6 border py-6 shadow-sm mt-2 flex h-full w-full flex-none flex-col rounded-sm sm:min-h-[307px] sm:max-w-[396px]"&gt;<br/>
+         &lt;div data-slot="card-header" class="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start gap-1.5 px-6 has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6"&gt;<br/>
+          &lt;div data-slot="card-title" class="font-semibold text-2xl"&gt;<br/>
+           &lt;div class="flex w-full items-center justify-between"&gt;<br/>
+            Archivo Abraham<br/>
+            &lt;svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-text min-h-[31px] min-w-[31px]" aria-hidden="true"&gt;<br/>
+             &lt;path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"&gt;&lt;/path&gt;&lt;path d="M14 2v4a2 2 0 0 0 2 2h4"&gt;&lt;/path&gt;&lt;path d="M10 9H8"&gt;&lt;/path&gt;&lt;path d="M16 13H8"&gt;&lt;/path&gt;&lt;path d="M16 17H8"&gt;&lt;/path&gt;<br/>
+            &lt;/svg&gt;<br/>
+           &lt;/div&gt;<br/>
+          &lt;/div&gt;<br/>
+         &lt;/div&gt;<br/>
+         &lt;div data-slot="card-content" class="px-6"&gt;<br/>
+          &lt;div class="font-extralight text-gray-500"&gt;<br/>
+           &lt;p&gt;Autor: Abraham&lt;/p&gt;<br/>
+           &lt;p&gt;Subido: 15/6/2025&lt;/p&gt;<br/>
+           &lt;p&gt;Modificado: 15/6/2025&lt;/p&gt;<br/>
+           &lt;p&gt;Tamaño: 0.26 MB&lt;/p&gt;<br/>
+          &lt;/div&gt;<br/>
+         &lt;/div&gt;<br/>
+         &lt;div data-slot="card-footer" class="items-center px-6 [.border-t]:pt-6 flex flex-col gap-y-2"&gt;<br/>
+          &lt;div class="flex min-h-10 w-full justify-between"&gt;&lt;/div&gt;<br/>
+          &lt;div class="flex w-full"&gt;<br/>
+           &lt;button data-slot="button" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50 h-9 px-4 py-2 has-[&gt;svg]:px-3 w-full border-2 border-gray-400"&gt;<br/>
+            &lt;svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-download" aria-hidden="true"&gt;<br/>
+             &lt;path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"&gt;&lt;/path&gt;&lt;polyline points="7 10 12 15 17 10"&gt;&lt;/polyline&gt;&lt;line x1="12" x2="12" y1="15" y2="3"&gt;&lt;/line&gt;<br/>
+            &lt;/svg&gt;Descargar&lt;/button&gt;<br/>
+          &lt;/div&gt;<br/>
+         &lt;/div&gt;<br/>
+        &lt;/div&gt;<br/>
+        &lt;div data-slot="card" class="bg-card text-card-foreground gap-6 border py-6 shadow-sm mt-2 flex h-full w-full flex-none flex-col rounded-sm sm:min-h-[307px] sm:max-w-[396px]"&gt;<br/>
+         &lt;div data-slot="card-header" class="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start gap-1.5 px-6 has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6"&gt;<br/>
+          &lt;div data-slot="card-title" class="font-semibold text-2xl"&gt;<br/>
+           &lt;div class="flex w-full items-center justify-between"&gt;<br/>
+            exitoso<br/>
+            &lt;svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-text min-h-[31px] min-w-[31px]" aria-hidden="true"&gt;<br/>
+             &lt;path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"&gt;&lt;/path&gt;&lt;path d="M14 2v4a2 2 0 0 0 2 2h4"&gt;&lt;/path&gt;&lt;path d="M10 9H8"&gt;&lt;/path&gt;&lt;path d="M16 13H8"&gt;&lt;/path&gt;&lt;path d="M16 17H8"&gt;&lt;/path&gt;<br/>
+            &lt;/svg&gt;<br/>
+           &lt;/div&gt;<br/>
+          &lt;/div&gt;<br/>
+         &lt;/div&gt;<br/>
+         &lt;div data-slot="card-content" class="px-6"&gt;<br/>
+          &lt;div class="font-extralight text-gray-500"&gt;<br/>
+           &lt;p&gt;Autor: Wilmer Soto&lt;/p&gt;<br/>
+           &lt;p&gt;Subido: 13/7/2025&lt;/p&gt;<br/>
+           &lt;p&gt;Modificado: 13/7/2025&lt;/p&gt;<br/>
+           &lt;p&gt;Tamaño: 0.02 MB&lt;/p&gt;<br/>
+          &lt;/div&gt;<br/>
+         &lt;/div&gt;<br/>
+         &lt;div data-slot="card-footer" class="items-center px-6 [.border-t]:pt-6 flex flex-col gap-y-2"&gt;<br/>
+          &lt;div class="flex min-h-10 w-full justify-between"&gt;<br/>
+           &lt;button data-slot="button" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50 h-9 px-4 py-2 has-[&gt;svg]:px-3 border-2 border-gray-400 font-semibold"&gt;<br/>
+            &lt;svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-download" aria-hidden="true"&gt;<br/>
+             &lt;path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"&gt;&lt;/path&gt;&lt;polyline points="7 10 12 15 17 10"&gt;&lt;/polyline&gt;&lt;line x1="12" x2="12" y1="15" y2="3"&gt;&lt;/line&gt;<br/>
+            &lt;/svg&gt;Descargar&lt;/button&gt;&lt;button data-slot="button" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50 h-9 px-4 py-2 has-[&gt;svg]:px-3 border-2 border-gray-400 font-semibold"&gt;<br/>
+            &lt;svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-square-pen" aria-hidden="true"&gt;<br/>
+             &lt;path d="M12 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"&gt;&lt;/path&gt;&lt;path d="M18.375 2.625a1 1 0 0 1 3 3l-9.013 9.014a2 2 0 0 1-.853.505l-2.873.84a.5.5 0 0 1-.62-.62l.84-2.873a2 2 0 0 1 .506-.852z"&gt;&lt;/path&gt;<br/>
+            &lt;/svg&gt;Editar&lt;/button&gt;&lt;button data-slot="button" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50 h-9 px-4 py-2 has-[&gt;svg]:px-3 border-2 border-gray-400 font-semibold"&gt;<br/>
+            &lt;svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-share2 lucide-share-2" aria-hidden="true"&gt;<br/>
+             &lt;circle cx="18" cy="5" r="3"&gt;&lt;/circle&gt;&lt;circle cx="6" cy="12" r="3"&gt;&lt;/circle&gt;&lt;circle cx="18" cy="19" r="3"&gt;&lt;/circle&gt;&lt;line x1="8.59" x2="15.42" y1="13.51" y2="17.49"&gt;&lt;/line&gt;&lt;line x1="15.41" x2="8.59" y1="6.51" y2="10.49"&gt;&lt;/line&gt;<br/>
+            &lt;/svg&gt;Compartir&lt;/button&gt;<br/>
+          &lt;/div&gt;<br/>
+          &lt;div class="flex w-full"&gt;<br/>
+           &lt;button data-slot="alert-dialog-trigger" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-background shadow-xs dark:bg-input/30 dark:border-input dark:hover:bg-input/50 h-9 px-4 py-2 has-[&gt;svg]:px-3 w-full border-2 border-gray-400 font-semibold text-red-500 hover:bg-red-400 hover:text-black" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-«rc»" data-state="closed"&gt;<br/>
+            &lt;svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trash2 lucide-trash-2" aria-hidden="true"&gt;<br/>
+             &lt;path d="M3 6h18"&gt;&lt;/path&gt;&lt;path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"&gt;&lt;/path&gt;&lt;path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"&gt;&lt;/path&gt;&lt;line x1="10" x2="10" y1="11" y2="17"&gt;&lt;/line&gt;&lt;line x1="14" x2="14" y1="11" y2="17"&gt;&lt;/line&gt;<br/>
+            &lt;/svg&gt;Eliminar&lt;/button&gt;<br/>
+          &lt;/div&gt;<br/>
+         &lt;/div&gt;<br/>
+        &lt;/div&gt;<br/>
+        &lt;div data-slot="card" class="bg-card text-card-foreground gap-6 border py-6 shadow-sm mt-2 flex h-full w-full flex-none flex-col rounded-sm sm:min-h-[307px] sm:max-w-[396px]"&gt;<br/>
+         &lt;div data-slot="card-header" class="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start gap-1.5 px-6 has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6"&gt;<br/>
+          &lt;div data-slot="card-title" class="font-semibold text-2xl"&gt;<br/>
+           &lt;div class="flex w-full items-center justify-between"&gt;<br/>
+            exitoso<br/>
+            &lt;svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-text min-h-[31px] min-w-[31px]" aria-hidden="true"&gt;<br/>
+             &lt;path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"&gt;&lt;/path&gt;&lt;path d="M14 2v4a2 2 0 0 0 2 2h4"&gt;&lt;/path&gt;&lt;path d="M10 9H8"&gt;&lt;/path&gt;&lt;path d="M16 13H8"&gt;&lt;/path&gt;&lt;path d="M16 17H8"&gt;&lt;/path&gt;<br/>
+            &lt;/svg&gt;<br/>
+           &lt;/div&gt;<br/>
+          &lt;/div&gt;<br/>
+         &lt;/div&gt;<br/>
+         &lt;div data-slot="card-content" class="px-6"&gt;<br/>
+          &lt;div class="font-extralight text-gray-500"&gt;<br/>
+           &lt;p&gt;Autor: Wilmer Soto&lt;/p&gt;<br/>
+           &lt;p&gt;Subido: 13/7/2025&lt;/p&gt;<br/>
+           &lt;p&gt;Modificado: 13/7/2025&lt;/p&gt;<br/>
+           &lt;p&gt;Tamaño: 0.02 MB&lt;/p&gt;<br/>
+          &lt;/div&gt;<br/>
+         &lt;/div&gt;<br/>
+         &lt;div data-slot="card-footer" class="items-center px-6 [.border-t]:pt-6 flex flex-col gap-y-2"&gt;<br/>
+          &lt;div class="flex min-h-10 w-full justify-between"&gt;<br/>
+           &lt;button data-slot="button" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50 h-9 px-4 py-2 has-[&gt;svg]:px-3 border-2 border-gray-400 font-semibold"&gt;<br/>
+            &lt;svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-download" aria-hidden="true"&gt;<br/>
+             &lt;path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"&gt;&lt;/path&gt;&lt;polyline points="7 10 12 15 17 10"&gt;&lt;/polyline&gt;&lt;line x1="12" x2="12" y1="15" y2="3"&gt;&lt;/line&gt;<br/>
+            &lt;/svg&gt;Descargar&lt;/button&gt;&lt;button data-slot="button" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50 h-9 px-4 py-2 has-[&gt;svg]:px-3 border-2 border-gray-400 font-semibold"&gt;<br/>
+            &lt;svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-square-pen" aria-hidden="true"&gt;<br/>
+             &lt;path d="M12 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"&gt;&lt;/path&gt;&lt;path d="M18.375 2.625a1 1 0 0 1 3 3l-9.013 9.014a2 2 0 0 1-.853.505l-2.873.84a.5.5 0 0 1-.62-.62l.84-2.873a2 2 0 0 1 .506-.852z"&gt;&lt;/path&gt;<br/>
+            &lt;/svg&gt;Editar&lt;/button&gt;&lt;button data-slot="button" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50 h-9 px-4 py-2 has-[&gt;svg]:px-3 border-2 border-gray-400 font-semibold"&gt;<br/>
+            &lt;svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-share2 lucide-share-2" aria-hidden="true"&gt;<br/>
+             &lt;circle cx="18" cy="5" r="3"&gt;&lt;/circle&gt;&lt;circle cx="6" cy="12" r="3"&gt;&lt;/circle&gt;&lt;circle cx="18" cy="19" r="3"&gt;&lt;/circle&gt;&lt;line x1="8.59" x2="15.42" y1="13.51" y2="17.49"&gt;&lt;/line&gt;&lt;line x1="15.41" x2="8.59" y1="6.51" y2="10.49"&gt;&lt;/line&gt;<br/>
+            &lt;/svg&gt;Compartir&lt;/button&gt;<br/>
+          &lt;/div&gt;<br/>
+          &lt;div class="flex w-full"&gt;<br/>
+           &lt;button data-slot="alert-dialog-trigger" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-background shadow-xs dark:bg-input/30 dark:border-input dark:hover:bg-input/50 h-9 px-4 py-2 has-[&gt;svg]:px-3 w-full border-2 border-gray-400 font-semibold text-red-500 hover:bg-red-400 hover:text-black" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-«rf»" data-state="closed"&gt;<br/>
+            &lt;svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trash2 lucide-trash-2" aria-hidden="true"&gt;<br/>
+             &lt;path d="M3 6h18"&gt;&lt;/path&gt;&lt;path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"&gt;&lt;/path&gt;&lt;path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"&gt;&lt;/path&gt;&lt;line x1="10" x2="10" y1="11" y2="17"&gt;&lt;/line&gt;&lt;line x1="14" x2="14" y1="11" y2="17"&gt;&lt;/line&gt;<br/>
+            &lt;/svg&gt;Eliminar&lt;/button&gt;<br/>
+          &lt;/div&gt;<br/>
+         &lt;/div&gt;<br/>
+        &lt;/div&gt;<br/>
+        &lt;div data-slot="card" class="bg-card text-card-foreground gap-6 border py-6 shadow-sm mt-2 flex h-full w-full flex-none flex-col rounded-sm sm:min-h-[307px] sm:max-w-[396px]"&gt;<br/>
+         &lt;div data-slot="card-header" class="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start gap-1.5 px-6 has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6"&gt;<br/>
+          &lt;div data-slot="card-title" class="font-semibold text-2xl"&gt;<br/>
+           &lt;div class="flex w-full items-center justify-between"&gt;<br/>
+            exitoso<br/>
+            &lt;svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-text min-h-[31px] min-w-[31px]" aria-hidden="true"&gt;<br/>
+             &lt;path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"&gt;&lt;/path&gt;&lt;path d="M14 2v4a2 2 0 0 0 2 2h4"&gt;&lt;/path&gt;&lt;path d="M10 9H8"&gt;&lt;/path&gt;&lt;path d="M16 13H8"&gt;&lt;/path&gt;&lt;path d="M16 17H8"&gt;&lt;/path&gt;<br/>
+            &lt;/svg&gt;<br/>
+           &lt;/div&gt;<br/>
+          &lt;/div&gt;<br/>
+         &lt;/div&gt;<br/>
+         &lt;div data-slot="card-content" class="px-6"&gt;<br/>
+          &lt;div class="font-extralight text-gray-500"&gt;<br/>
+           &lt;p&gt;Autor: Wilmer Soto&lt;/p&gt;<br/>
+           &lt;p&gt;Subido: 13/7/2025&lt;/p&gt;<br/>
+           &lt;p&gt;Modificado: 13/7/2025&lt;/p&gt;<br/>
+           &lt;p&gt;Tamaño: 0.02 MB&lt;/p&gt;<br/>
+          &lt;/div&gt;<br/>
+         &lt;/div&gt;<br/>
+         &lt;div data-slot="card-footer" class="items-center px-6 [.border-t]:pt-6 flex flex-col gap-y-2"&gt;<br/>
+          &lt;div class="flex min-h-10 w-full justify-between"&gt;<br/>
+           &lt;button data-slot="button" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50 h-9 px-4 py-2 has-[&gt;svg]:px-3 border-2 border-gray-400 font-semibold"&gt;<br/>
+            &lt;svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-download" aria-hidden="true"&gt;<br/>
+             &lt;path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"&gt;&lt;/path&gt;&lt;polyline points="7 10 12 15 17 10"&gt;&lt;/polyline&gt;&lt;line x1="12" x2="12" y1="15" y2="3"&gt;&lt;/line&gt;<br/>
+            &lt;/svg&gt;Descargar&lt;/button&gt;&lt;button data-slot="button" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50 h-9 px-4 py-2 has-[&gt;svg]:px-3 border-2 border-gray-400 font-semibold"&gt;<br/>
+            &lt;svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-square-pen" aria-hidden="true"&gt;<br/>
+             &lt;path d="M12 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"&gt;&lt;/path&gt;&lt;path d="M18.375 2.625a1 1 0 0 1 3 3l-9.013 9.014a2 2 0 0 1-.853.505l-2.873.84a.5.5 0 0 1-.62-.62l.84-2.873a2 2 0 0 1 .506-.852z"&gt;&lt;/path&gt;<br/>
+            &lt;/svg&gt;Editar&lt;/button&gt;&lt;button data-slot="button" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50 h-9 px-4 py-2 has-[&gt;svg]:px-3 border-2 border-gray-400 font-semibold"&gt;<br/>
+            &lt;svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-share2 lucide-share-2" aria-hidden="true"&gt;<br/>
+             &lt;circle cx="18" cy="5" r="3"&gt;&lt;/circle&gt;&lt;circle cx="6" cy="12" r="3"&gt;&lt;/circle&gt;&lt;circle cx="18" cy="19" r="3"&gt;&lt;/circle&gt;&lt;line x1="8.59" x2="15.42" y1="13.51" y2="17.49"&gt;&lt;/line&gt;&lt;line x1="15.41" x2="8.59" y1="6.51" y2="10.49"&gt;&lt;/line&gt;<br/>
+            &lt;/svg&gt;Compartir&lt;/button&gt;<br/>
+          &lt;/div&gt;<br/>
+          &lt;div class="flex w-full"&gt;<br/>
+           &lt;button data-slot="alert-dialog-trigger" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-background shadow-xs dark:bg-input/30 dark:border-input dark:hover:bg-input/50 h-9 px-4 py-2 has-[&gt;svg]:px-3 w-full border-2 border-gray-400 font-semibold text-red-500 hover:bg-red-400 hover:text-black" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-«ri»" data-state="closed"&gt;<br/>
+            &lt;svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trash2 lucide-trash-2" aria-hidden="true"&gt;<br/>
+             &lt;path d="M3 6h18"&gt;&lt;/path&gt;&lt;path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"&gt;&lt;/path&gt;&lt;path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"&gt;&lt;/path&gt;&lt;line x1="10" x2="10" y1="11" y2="17"&gt;&lt;/line&gt;&lt;line x1="14" x2="14" y1="11" y2="17"&gt;&lt;/line&gt;<br/>
+            &lt;/svg&gt;Eliminar&lt;/button&gt;<br/>
+          &lt;/div&gt;<br/>
+         &lt;/div&gt;<br/>
+        &lt;/div&gt;<br/>
+        &lt;div data-slot="card" class="bg-card text-card-foreground gap-6 border py-6 shadow-sm mt-2 flex h-full w-full flex-none flex-col rounded-sm sm:min-h-[307px] sm:max-w-[396px]"&gt;<br/>
+         &lt;div data-slot="card-header" class="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start gap-1.5 px-6 has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6"&gt;<br/>
+          &lt;div data-slot="card-title" class="font-semibold text-2xl"&gt;<br/>
+           &lt;div class="flex w-full items-center justify-between"&gt;<br/>
+            exitoso<br/>
+            &lt;svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-text min-h-[31px] min-w-[31px]" aria-hidden="true"&gt;<br/>
+             &lt;path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"&gt;&lt;/path&gt;&lt;path d="M14 2v4a2 2 0 0 0 2 2h4"&gt;&lt;/path&gt;&lt;path d="M10 9H8"&gt;&lt;/path&gt;&lt;path d="M16 13H8"&gt;&lt;/path&gt;&lt;path d="M16 17H8"&gt;&lt;/path&gt;<br/>
+            &lt;/svg&gt;<br/>
+           &lt;/div&gt;<br/>
+          &lt;/div&gt;<br/>
+         &lt;/div&gt;<br/>
+         &lt;div data-slot="card-content" class="px-6"&gt;<br/>
+          &lt;div class="font-extralight text-gray-500"&gt;<br/>
+           &lt;p&gt;Autor: Wilmer Soto&lt;/p&gt;<br/>
+           &lt;p&gt;Subido: 13/7/2025&lt;/p&gt;<br/>
+           &lt;p&gt;Modificado: 13/7/2025&lt;/p&gt;<br/>
+           &lt;p&gt;Tamaño: 0.02 MB&lt;/p&gt;<br/>
+          &lt;/div&gt;<br/>
+         &lt;/div&gt;<br/>
+         &lt;div data-slot="card-footer" class="items-center px-6 [.border-t]:pt-6 flex flex-col gap-y-2"&gt;<br/>
+          &lt;div class="flex min-h-10 w-full justify-between"&gt;<br/>
+           &lt;button data-slot="button" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50 h-9 px-4 py-2 has-[&gt;svg]:px-3 border-2 border-gray-400 font-semibold"&gt;<br/>
+            &lt;svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-download" aria-hidden="true"&gt;<br/>
+             &lt;path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"&gt;&lt;/path&gt;&lt;polyline points="7 10 12 15 17 10"&gt;&lt;/polyline&gt;&lt;line x1="12" x2="12" y1="15" y2="3"&gt;&lt;/line&gt;<br/>
+            &lt;/svg&gt;Descargar&lt;/button&gt;&lt;button data-slot="button" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50 h-9 px-4 py-2 has-[&gt;svg]:px-3 border-2 border-gray-400 font-semibold"&gt;<br/>
+            &lt;svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-square-pen" aria-hidden="true"&gt;<br/>
+             &lt;path d="M12 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"&gt;&lt;/path&gt;&lt;path d="M18.375 2.625a1 1 0 0 1 3 3l-9.013 9.014a2 2 0 0 1-.853.505l-2.873.84a.5.5 0 0 1-.62-.62l.84-2.873a2 2 0 0 1 .506-.852z"&gt;&lt;/path&gt;<br/>
+            &lt;/svg&gt;Editar&lt;/button&gt;&lt;button data-slot="button" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50 h-9 px-4 py-2 has-[&gt;svg]:px-3 border-2 border-gray-400 font-semibold"&gt;<br/>
+            &lt;svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-share2 lucide-share-2" aria-hidden="true"&gt;<br/>
+             &lt;circle cx="18" cy="5" r="3"&gt;&lt;/circle&gt;&lt;circle cx="6" cy="12" r="3"&gt;&lt;/circle&gt;&lt;circle cx="18" cy="19" r="3"&gt;&lt;/circle&gt;&lt;line x1="8.59" x2="15.42" y1="13.51" y2="17.49"&gt;&lt;/line&gt;&lt;line x1="15.41" x2="8.59" y1="6.51" y2="10.49"&gt;&lt;/line&gt;<br/>
+            &lt;/svg&gt;Compartir&lt;/button&gt;<br/>
+          &lt;/div&gt;<br/>
+          &lt;div class="flex w-full"&gt;<br/>
+           &lt;button data-slot="alert-dialog-trigger" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-background shadow-xs dark:bg-input/30 dark:border-input dark:hover:bg-input/50 h-9 px-4 py-2 has-[&gt;svg]:px-3 w-full border-2 border-gray-400 font-semibold text-red-500 hover:bg-red-400 hover:text-black" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-«rl»" data-state="closed"&gt;<br/>
+            &lt;svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trash2 lucide-trash-2" aria-hidden="true"&gt;<br/>
+             &lt;path d="M3 6h18"&gt;&lt;/path&gt;&lt;path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"&gt;&lt;/path&gt;&lt;path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"&gt;&lt;/path&gt;&lt;line x1="10" x2="10" y1="11" y2="17"&gt;&lt;/line&gt;&lt;line x1="14" x2="14" y1="11" y2="17"&gt;&lt;/line&gt;<br/>
+            &lt;/svg&gt;Eliminar&lt;/button&gt;<br/>
+          &lt;/div&gt;<br/>
+         &lt;/div&gt;<br/>
+        &lt;/div&gt;<br/>
+        &lt;div data-slot="card" class="bg-card text-card-foreground gap-6 border py-6 shadow-sm mt-2 flex h-full w-full flex-none flex-col rounded-sm sm:min-h-[307px] sm:max-w-[396px]"&gt;<br/>
+         &lt;div data-slot="card-header" class="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start gap-1.5 px-6 has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6"&gt;<br/>
+          &lt;div data-slot="card-title" class="font-semibold text-2xl"&gt;<br/>
+           &lt;div class="flex w-full items-center justify-between"&gt;<br/>
+            exitoso<br/>
+            &lt;svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-text min-h-[31px] min-w-[31px]" aria-hidden="true"&gt;<br/>
+             &lt;path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"&gt;&lt;/path&gt;&lt;path d="M14 2v4a2 2 0 0 0 2 2h4"&gt;&lt;/path&gt;&lt;path d="M10 9H8"&gt;&lt;/path&gt;&lt;path d="M16 13H8"&gt;&lt;/path&gt;&lt;path d="M16 17H8"&gt;&lt;/path&gt;<br/>
+            &lt;/svg&gt;<br/>
+           &lt;/div&gt;<br/>
+          &lt;/div&gt;<br/>
+         &lt;/div&gt;<br/>
+         &lt;div data-slot="card-content" class="px-6"&gt;<br/>
+          &lt;div class="font-extralight text-gray-500"&gt;<br/>
+           &lt;p&gt;Autor: Wilmer Soto&lt;/p&gt;<br/>
+           &lt;p&gt;Subido: 13/7/2025&lt;/p&gt;<br/>
+           &lt;p&gt;Modificado: 13/7/2025&lt;/p&gt;<br/>
+           &lt;p&gt;Tamaño: 0.02 MB&lt;/p&gt;<br/>
+          &lt;/div&gt;<br/>
+         &lt;/div&gt;<br/>
+         &lt;div data-slot="card-footer" class="items-center px-6 [.border-t]:pt-6 flex flex-col gap-y-2"&gt;<br/>
+          &lt;div class="flex min-h-10 w-full justify-between"&gt;<br/>
+           &lt;button data-slot="button" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50 h-9 px-4 py-2 has-[&gt;svg]:px-3 border-2 border-gray-400 font-semibold"&gt;<br/>
+            &lt;svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-download" aria-hidden="true"&gt;<br/>
+             &lt;path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"&gt;&lt;/path&gt;&lt;polyline points="7 10 12 15 17 10"&gt;&lt;/polyline&gt;&lt;line x1="12" x2="12" y1="15" y2="3"&gt;&lt;/line&gt;<br/>
+            &lt;/svg&gt;Descargar&lt;/button&gt;&lt;button data-slot="button" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50 h-9 px-4 py-2 has-[&gt;svg]:px-3 border-2 border-gray-400 font-semibold"&gt;<br/>
+            &lt;svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-square-pen" aria-hidden="true"&gt;<br/>
+             &lt;path d="M12 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"&gt;&lt;/path&gt;&lt;path d="M18.375 2.625a1 1 0 0 1 3 3l-9.013 9.014a2 2 0 0 1-.853.505l-2.873.84a.5.5 0 0 1-.62-.62l.84-2.873a2 2 0 0 1 .506-.852z"&gt;&lt;/path&gt;<br/>
+            &lt;/svg&gt;Editar&lt;/button&gt;&lt;button data-slot="button" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50 h-9 px-4 py-2 has-[&gt;svg]:px-3 border-2 border-gray-400 font-semibold"&gt;<br/>
+            &lt;svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-share2 lucide-share-2" aria-hidden="true"&gt;<br/>
+             &lt;circle cx="18" cy="5" r="3"&gt;&lt;/circle&gt;&lt;circle cx="6" cy="12" r="3"&gt;&lt;/circle&gt;&lt;circle cx="18" cy="19" r="3"&gt;&lt;/circle&gt;&lt;line x1="8.59" x2="15.42" y1="13.51" y2="17.49"&gt;&lt;/line&gt;&lt;line x1="15.41" x2="8.59" y1="6.51" y2="10.49"&gt;&lt;/line&gt;<br/>
+            &lt;/svg&gt;Compartir&lt;/button&gt;<br/>
+          &lt;/div&gt;<br/>
+          &lt;div class="flex w-full"&gt;<br/>
+           &lt;button data-slot="alert-dialog-trigger" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-background shadow-xs dark:bg-input/30 dark:border-input dark:hover:bg-input/50 h-9 px-4 py-2 has-[&gt;svg]:px-3 w-full border-2 border-gray-400 font-semibold text-red-500 hover:bg-red-400 hover:text-black" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-«ro»" data-state="closed"&gt;<br/>
+            &lt;svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trash2 lucide-trash-2" aria-hidden="true"&gt;<br/>
+             &lt;path d="M3 6h18"&gt;&lt;/path&gt;&lt;path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"&gt;&lt;/path&gt;&lt;path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"&gt;&lt;/path&gt;&lt;line x1="10" x2="10" y1="11" y2="17"&gt;&lt;/line&gt;&lt;line x1="14" x2="14" y1="11" y2="17"&gt;&lt;/line&gt;<br/>
+            &lt;/svg&gt;Eliminar&lt;/button&gt;<br/>
+          &lt;/div&gt;<br/>
+         &lt;/div&gt;<br/>
+        &lt;/div&gt;<br/>
+        &lt;div data-slot="card" class="bg-card text-card-foreground gap-6 border py-6 shadow-sm mt-2 flex h-full w-full flex-none flex-col rounded-sm sm:min-h-[307px] sm:max-w-[396px]"&gt;<br/>
+         &lt;div data-slot="card-header" class="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start gap-1.5 px-6 has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6"&gt;<br/>
+          &lt;div data-slot="card-title" class="font-semibold text-2xl"&gt;<br/>
+           &lt;div class="flex w-full items-center justify-between"&gt;<br/>
+            exitoso<br/>
+            &lt;svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-text min-h-[31px] min-w-[31px]" aria-hidden="true"&gt;<br/>
+             &lt;path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"&gt;&lt;/path&gt;&lt;path d="M14 2v4a2 2 0 0 0 2 2h4"&gt;&lt;/path&gt;&lt;path d="M10 9H8"&gt;&lt;/path&gt;&lt;path d="M16 13H8"&gt;&lt;/path&gt;&lt;path d="M16 17H8"&gt;&lt;/path&gt;<br/>
+            &lt;/svg&gt;<br/>
+           &lt;/div&gt;<br/>
+          &lt;/div&gt;<br/>
+         &lt;/div&gt;<br/>
+         &lt;div data-slot="card-content" class="px-6"&gt;<br/>
+          &lt;div class="font-extralight text-gray-500"&gt;<br/>
+           &lt;p&gt;Autor: Wilmer Soto&lt;/p&gt;<br/>
+           &lt;p&gt;Subido: 13/7/2025&lt;/p&gt;<br/>
+           &lt;p&gt;Modificado: 13/7/2025&lt;/p&gt;<br/>
+           &lt;p&gt;Tamaño: 0.02 MB&lt;/p&gt;<br/>
+          &lt;/div&gt;<br/>
+         &lt;/div&gt;<br/>
+         &lt;div data-slot="card-footer" class="items-center px-6 [.border-t]:pt-6 flex flex-col gap-y-2"&gt;<br/>
+          &lt;div class="flex min-h-10 w-full justify-between"&gt;<br/>
+           &lt;button data-slot="button" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50 h-9 px-4 py-2 has-[&gt;svg]:px-3 border-2 border-gray-400 font-semibold"&gt;<br/>
+            &lt;svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-download" aria-hidden="true"&gt;<br/>
+             &lt;path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"&gt;&lt;/path&gt;&lt;polyline points="7 10 12 15 17 10"&gt;&lt;/polyline&gt;&lt;line x1="12" x2="12" y1="15" y2="3"&gt;&lt;/line&gt;<br/>
+            &lt;/svg&gt;Descargar&lt;/button&gt;&lt;button data-slot="button" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50 h-9 px-4 py-2 has-[&gt;svg]:px-3 border-2 border-gray-400 font-semibold"&gt;<br/>
+            &lt;svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-square-pen" aria-hidden="true"&gt;<br/>
+             &lt;path d="M12 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"&gt;&lt;/path&gt;&lt;path d="M18.375 2.625a1 1 0 0 1 3 3l-9.013 9.014a2 2 0 0 1-.853.505l-2.873.84a.5.5 0 0 1-.62-.62l.84-2.873a2 2 0 0 1 .506-.852z"&gt;&lt;/path&gt;<br/>
+            &lt;/svg&gt;Editar&lt;/button&gt;&lt;button data-slot="button" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50 h-9 px-4 py-2 has-[&gt;svg]:px-3 border-2 border-gray-400 font-semibold"&gt;<br/>
+            &lt;svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-share2 lucide-share-2" aria-hidden="true"&gt;<br/>
+             &lt;circle cx="18" cy="5" r="3"&gt;&lt;/circle&gt;&lt;circle cx="6" cy="12" r="3"&gt;&lt;/circle&gt;&lt;circle cx="18" cy="19" r="3"&gt;&lt;/circle&gt;&lt;line x1="8.59" x2="15.42" y1="13.51" y2="17.49"&gt;&lt;/line&gt;&lt;line x1="15.41" x2="8.59" y1="6.51" y2="10.49"&gt;&lt;/line&gt;<br/>
+            &lt;/svg&gt;Compartir&lt;/button&gt;<br/>
+          &lt;/div&gt;<br/>
+          &lt;div class="flex w-full"&gt;<br/>
+           &lt;button data-slot="alert-dialog-trigger" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-background shadow-xs dark:bg-input/30 dark:border-input dark:hover:bg-input/50 h-9 px-4 py-2 has-[&gt;svg]:px-3 w-full border-2 border-gray-400 font-semibold text-red-500 hover:bg-red-400 hover:text-black" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-«rr»" data-state="closed"&gt;<br/>
+            &lt;svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trash2 lucide-trash-2" aria-hidden="true"&gt;<br/>
+             &lt;path d="M3 6h18"&gt;&lt;/path&gt;&lt;path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"&gt;&lt;/path&gt;&lt;path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"&gt;&lt;/path&gt;&lt;line x1="10" x2="10" y1="11" y2="17"&gt;&lt;/line&gt;&lt;line x1="14" x2="14" y1="11" y2="17"&gt;&lt;/line&gt;<br/>
+            &lt;/svg&gt;Eliminar&lt;/button&gt;<br/>
+          &lt;/div&gt;<br/>
+         &lt;/div&gt;<br/>
+        &lt;/div&gt;<br/>
+        &lt;div data-slot="card" class="bg-card text-card-foreground gap-6 border py-6 shadow-sm mt-2 flex h-full w-full flex-none flex-col rounded-sm sm:min-h-[307px] sm:max-w-[396px]"&gt;<br/>
+         &lt;div data-slot="card-header" class="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start gap-1.5 px-6 has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6"&gt;<br/>
+          &lt;div data-slot="card-title" class="font-semibold text-2xl"&gt;<br/>
+           &lt;div class="flex w-full items-center justify-between"&gt;<br/>
+            exitoso<br/>
+            &lt;svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-text min-h-[31px] min-w-[31px]" aria-hidden="true"&gt;<br/>
+             &lt;path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"&gt;&lt;/path&gt;&lt;path d="M14 2v4a2 2 0 0 0 2 2h4"&gt;&lt;/path&gt;&lt;path d="M10 9H8"&gt;&lt;/path&gt;&lt;path d="M16 13H8"&gt;&lt;/path&gt;&lt;path d="M16 17H8"&gt;&lt;/path&gt;<br/>
+            &lt;/svg&gt;<br/>
+           &lt;/div&gt;<br/>
+          &lt;/div&gt;<br/>
+         &lt;/div&gt;<br/>
+         &lt;div data-slot="card-content" class="px-6"&gt;<br/>
+          &lt;div class="font-extralight text-gray-500"&gt;<br/>
+           &lt;p&gt;Autor: Wilmer Soto&lt;/p&gt;<br/>
+           &lt;p&gt;Subido: 13/7/2025&lt;/p&gt;<br/>
+           &lt;p&gt;Modificado: 13/7/2025&lt;/p&gt;<br/>
+           &lt;p&gt;Tamaño: 0.02 MB&lt;/p&gt;<br/>
+          &lt;/div&gt;<br/>
+         &lt;/div&gt;<br/>
+         &lt;div data-slot="card-footer" class="items-center px-6 [.border-t]:pt-6 flex flex-col gap-y-2"&gt;<br/>
+          &lt;div class="flex min-h-10 w-full justify-between"&gt;<br/>
+           &lt;button data-slot="button" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50 h-9 px-4 py-2 has-[&gt;svg]:px-3 border-2 border-gray-400 font-semibold"&gt;<br/>
+            &lt;svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-download" aria-hidden="true"&gt;<br/>
+             &lt;path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"&gt;&lt;/path&gt;&lt;polyline points="7 10 12 15 17 10"&gt;&lt;/polyline&gt;&lt;line x1="12" x2="12" y1="15" y2="3"&gt;&lt;/line&gt;<br/>
+            &lt;/svg&gt;Descargar&lt;/button&gt;&lt;button data-slot="button" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50 h-9 px-4 py-2 has-[&gt;svg]:px-3 border-2 border-gray-400 font-semibold"&gt;<br/>
+            &lt;svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-square-pen" aria-hidden="true"&gt;<br/>
+             &lt;path d="M12 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"&gt;&lt;/path&gt;&lt;path d="M18.375 2.625a1 1 0 0 1 3 3l-9.013 9.014a2 2 0 0 1-.853.505l-2.873.84a.5.5 0 0 1-.62-.62l.84-2.873a2 2 0 0 1 .506-.852z"&gt;&lt;/path&gt;<br/>
+            &lt;/svg&gt;Editar&lt;/button&gt;&lt;button data-slot="button" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50 h-9 px-4 py-2 has-[&gt;svg]:px-3 border-2 border-gray-400 font-semibold"&gt;<br/>
+            &lt;svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-share2 lucide-share-2" aria-hidden="true"&gt;<br/>
+             &lt;circle cx="18" cy="5" r="3"&gt;&lt;/circle&gt;&lt;circle cx="6" cy="12" r="3"&gt;&lt;/circle&gt;&lt;circle cx="18" cy="19" r="3"&gt;&lt;/circle&gt;&lt;line x1="8.59" x2="15.42" y1="13.51" y2="17.49"&gt;&lt;/line&gt;&lt;line x1="15.41" x2="8.59" y1="6.51" y2="10.49"&gt;&lt;/line&gt;<br/>
+            &lt;/svg&gt;Compartir&lt;/button&gt;<br/>
+          &lt;/div&gt;<br/>
+          &lt;div class="flex w-full"&gt;<br/>
+           &lt;button data-slot="alert-dialog-trigger" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-background shadow-xs dark:bg-input/30 dark:border-input dark:hover:bg-input/50 h-9 px-4 py-2 has-[&gt;svg]:px-3 w-full border-2 border-gray-400 font-semibold text-red-500 hover:bg-red-400 hover:text-black" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-«ru»" data-state="closed"&gt;<br/>
+            &lt;svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trash2 lucide-trash-2" aria-hidden="true"&gt;<br/>
+             &lt;path d="M3 6h18"&gt;&lt;/path&gt;&lt;path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"&gt;&lt;/path&gt;&lt;path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"&gt;&lt;/path&gt;&lt;line x1="10" x2="10" y1="11" y2="17"&gt;&lt;/line&gt;&lt;line x1="14" x2="14" y1="11" y2="17"&gt;&lt;/line&gt;<br/>
+            &lt;/svg&gt;Eliminar&lt;/button&gt;<br/>
+          &lt;/div&gt;<br/>
+         &lt;/div&gt;<br/>
+        &lt;/div&gt;<br/>
+        &lt;div data-slot="card" class="bg-card text-card-foreground gap-6 border py-6 shadow-sm mt-2 flex h-full w-full flex-none flex-col rounded-sm sm:min-h-[307px] sm:max-w-[396px]"&gt;<br/>
+         &lt;div data-slot="card-header" class="@container/card-header grid auto-rows-min grid-rows-[auto_auto] items-start gap-1.5 px-6 has-data-[slot=card-action]:grid-cols-[1fr_auto] [.border-b]:pb-6"&gt;<br/>
+          &lt;div data-slot="card-title" class="font-semibold text-2xl"&gt;<br/>
+           &lt;div class="flex w-full items-center justify-between"&gt;<br/>
+            exitoso<br/>
+            &lt;svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-text min-h-[31px] min-w-[31px]" aria-hidden="true"&gt;<br/>
+             &lt;path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"&gt;&lt;/path&gt;&lt;path d="M14 2v4a2 2 0 0 0 2 2h4"&gt;&lt;/path&gt;&lt;path d="M10 9H8"&gt;&lt;/path&gt;&lt;path d="M16 13H8"&gt;&lt;/path&gt;&lt;path d="M16 17H8"&gt;&lt;/path&gt;<br/>
+            &lt;/svg&gt;<br/>
+           &lt;/div&gt;<br/>
+          &lt;/div&gt;<br/>
+         &lt;/div&gt;<br/>
+         &lt;div data-slot="card-content" class="px-6"&gt;<br/>
+          &lt;div class="font-extralight text-gray-500"&gt;<br/>
+           &lt;p&gt;Autor: Wilmer Soto&lt;/p&gt;<br/>
+           &lt;p&gt;Subido: 13/7/2025&lt;/p&gt;<br/>
+           &lt;p&gt;Modificado: 13/7/2025&lt;/p&gt;<br/>
+           &lt;p&gt;Tamaño: 0.02 MB&lt;/p&gt;<br/>
+          &lt;/div&gt;<br/>
+         &lt;/div&gt;<br/>
+         &lt;div data-slot="card-footer" class="items-center px-6 [.border-t]:pt-6 flex flex-col gap-y-2"&gt;<br/>
+          &lt;div class="flex min-h-10 w-full justify-between"&gt;<br/>
+           &lt;button data-slot="button" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50 h-9 px-4 py-2 has-[&gt;svg]:px-3 border-2 border-gray-400 font-semibold"&gt;<br/>
+            &lt;svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-download" aria-hidden="true"&gt;<br/>
+             &lt;path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"&gt;&lt;/path&gt;&lt;polyline points="7 10 12 15 17 10"&gt;&lt;/polyline&gt;&lt;line x1="12" x2="12" y1="15" y2="3"&gt;&lt;/line&gt;<br/>
+            &lt;/svg&gt;Descargar&lt;/button&gt;&lt;button data-slot="button" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50 h-9 px-4 py-2 has-[&gt;svg]:px-3 border-2 border-gray-400 font-semibold"&gt;<br/>
+            &lt;svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-square-pen" aria-hidden="true"&gt;<br/>
+             &lt;path d="M12 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"&gt;&lt;/path&gt;&lt;path d="M18.375 2.625a1 1 0 0 1 3 3l-9.013 9.014a2 2 0 0 1-.853.505l-2.873.84a.5.5 0 0 1-.62-.62l.84-2.873a2 2 0 0 1 .506-.852z"&gt;&lt;/path&gt;<br/>
+            &lt;/svg&gt;Editar&lt;/button&gt;&lt;button data-slot="button" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50 h-9 px-4 py-2 has-[&gt;svg]:px-3 border-2 border-gray-400 font-semibold"&gt;<br/>
+            &lt;svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-share2 lucide-share-2" aria-hidden="true"&gt;<br/>
+             &lt;circle cx="18" cy="5" r="3"&gt;&lt;/circle&gt;&lt;circle cx="6" cy="12" r="3"&gt;&lt;/circle&gt;&lt;circle cx="18" cy="19" r="3"&gt;&lt;/circle&gt;&lt;line x1="8.59" x2="15.42" y1="13.51" y2="17.49"&gt;&lt;/line&gt;&lt;line x1="15.41" x2="8.59" y1="6.51" y2="10.49"&gt;&lt;/line&gt;<br/>
+            &lt;/svg&gt;Compartir&lt;/button&gt;<br/>
+          &lt;/div&gt;<br/>
+          &lt;div class="flex w-full"&gt;<br/>
+           &lt;button data-slot="alert-dialog-trigger" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-background shadow-xs dark:bg-input/30 dark:border-input dark:hover:bg-input/50 h-9 px-4 py-2 has-[&gt;svg]:px-3 w-full border-2 border-gray-400 font-semibold text-red-500 hover:bg-red-400 hover:text-black" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-«r11»" data-state="closed"&gt;<br/>
+            &lt;svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trash2 lucide-trash-2" aria-hidden="true"&gt;<br/>
+             &lt;path d="M3 6h18"&gt;&lt;/path&gt;&lt;path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"&gt;&lt;/path&gt;&lt;path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"&gt;&lt;/path&gt;&lt;line x1="10" x2="10" y1="11" y2="17"&gt;&lt;/line&gt;&lt;line x1="14" x2="14" y1="11" y2="17"&gt;&lt;/line&gt;<br/>
+            &lt;/svg&gt;Eliminar&lt;/button&gt;<br/>
+          &lt;/div&gt;<br/>
+         &lt;/div&gt;<br/>
+        &lt;/div&gt;<br/>
+       &lt;/div&gt;<br/>
+      &lt;/div&gt;<br/>
+      &lt;div data-state="inactive" data-orientation="horizontal" role="tabpanel" aria-labelledby="radix-«r9»-trigger-user" hidden id="radix-«r9»-content-user" tabindex="0" data-slot="tabs-content" class="flex-1 outline-none"&gt;&lt;/div&gt;<br/>
+     &lt;/div&gt;<br/>
+    &lt;/div&gt;<br/>
+   &lt;/div&gt;&lt;!--$--&gt;&lt;!--/$--&gt;&lt;!--$--&gt;&lt;!--/$--&gt;&lt;!--/$--&gt;<br/>
+  &lt;/main&gt;<br/>
+  &lt;footer class="text- flex h-[65px] w-full flex-none items-center justify-center border-t border-black bg-white text-sm font-semibold text-black"&gt;<br/>
+   © 2025 Sistema de gestión de documentos y entrega.<br/>
+  &lt;/footer&gt;<br/>
+  &lt;script src="/_next/static/chunks/webpack-d0dfca050fcf24d7.js" async&gt;&lt;/script&gt;<br/>
+  &lt;script&gt;(self.__next_f=self.__next_f||[]).push([0])&lt;/script&gt;<br/>
+  &lt;script&gt;self.__next_f.push([1,"1:\"$Sreact.fragment\"\n2:I[2012,[\"370\",\"static/chunks/370-3c5f14b362c4d564.js\",\"544\",\"static/chunks/544-ca27ea0ff03d2a80.js\",\"177\",\"static/chunks/app/layout-f6b55c9cde4478bd.js\"],\"SelectedProjectProvider\"]\n3:I[8262,[\"370\",\"static/chunks/370-3c5f14b362c4d564.js\",\"544\",\"static/chunks/544-ca27ea0ff03d2a80.js\",\"177\",\"static/chunks/app/layout-f6b55c9cde4478bd.js\"],\"ApolloWrapper\"]\n4:I[5015,[\"370\",\"static/chunks/370-3c5f14b362c4d564.js\",\"544\",\"static/chunks/544-ca27ea0ff03d2a80.js\",\"177\",\"static/chunks/app/layout-f6b55c9cde4478bd.js\"],\"NotificationProvider\"]\n5:I[9876,[\"370\",\"static/chunks/370-3c5f14b362c4d564.js\",\"544\",\"static/chunks/544-ca27ea0ff03d2a80.js\",\"177\",\"static/chunks/app/layout-f6b55c9cde4478bd.js\"],\"default\"]\n6:I[831,[],\"\"]\n7:I[8307,[],\"\"]\n8:I[4562,[\"370\",\"static/chunks/370-3c5f14b362c4d564.js\",\"980\",\"static/chunks/980-26bd276fa2c92d34.js\",\"974\",\"static/chunks/app/page-9f110ec64523e65a.js\"],\"default\"]\n9:I[9757,[],\"MetadataBoundary\"]\nb:I[9757,[],\"OutletBoundary\"]\ne:I[8475,[],\"AsyncMetadataOutlet\"]\n10:I[9757,[],\"ViewportBoundary\"]\n12:I[8458,[],\"\"]\n:HL[\"/_next/static/media/e4af272ccee01ff0-s.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/css/cf5cee92062f09f3.css\",\"style\"]\n"])&lt;/script&gt;<br/>
+  &lt;script&gt;self.__next_f.push([1,"0:{\"P\":null,\"b\":\"AmhLldplcwlzo56jzqqhe\",\"p\":\"\",\"c\":[\"\",\"\"],\"i\":false,\"f\":[[[\"\",{\"children\":[\"__PAGE__\",{}]},\"$undefined\",\"$undefined\",true],[\"\",[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/cf5cee92062f09f3.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}]],[\"$\",\"html\",null,{\"lang\":\"en\",\"children\":[\"$\",\"body\",null,{\"className\":\"__className_e8ce0c flex min-h-screen flex-col antialiased\",\"children\":[\"$\",\"$L2\",null,{\"children\":[\"$\",\"$L3\",null,{\"children\":[\"$\",\"$L4\",null,{\"children\":[[\"$\",\"div\",null,{\"className\":\"flex h-22 w-full justify-between bg-gray-300 pl-3 text-black\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex items-center justify-center text-xl font-bold sm:text-2xl lg:text-3xl\",\"children\":[\"$\",\"header\",null,{\"className\":\"min-w-0 flex-shrink\",\"children\":\"Sistema de gestion de documentos y entrega\"}]}],[\"$\",\"$L5\",null,{}]]}],[\"$\",\"main\",null,{\"className\":\"flex-grow overflow-y-auto py-5 md:pb-0 lg:py-5\",\"children\":[\"$\",\"$L6\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L7\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":404}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]],[]],\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]}],[\"$\",\"footer\",null,{\"className\":\"text- flex h-[65px] w-full flex-none items-center justify-center border-t border-black bg-white text-sm font-semibold text-black\",\"children\":\"© 2025 Sistema de gestión de documentos y entrega.\"}]]}]}]}]}]}]]}],{\"children\":[\"__PAGE__\",[\"$\",\"$1\",\"c\",{\"children\":[[\"$\",\"div\",null,{\"className\":\"mr-5 ml-5 flex flex-col gap-y-5 sm:mr-10 sm:ml-10 lg:mr-18 lg:ml-18\",\"children\":[\"$\",\"$L8\",null,{}]}],[\"$\",\"$L9\",null,{\"children\":\"$La\"}],null,[\"$\",\"$Lb\",null,{\"children\":[\"$Lc\",\"$Ld\",[\"$\",\"$Le\",null,{\"promise\":\"$@f\"}]]}]]}],{},null,false]},[[\"$\",\"div\",\"l\",{\"className\":\"flex h-screen items-center justify-center\",\"children\":[\"$\",\"p\",null,{\"children\":\"Cargando...\"}]}],[],[]],false],[\"$\",\"$1\",\"h\",{\"children\":[null,[\"$\",\"$1\",\"wgZwV0NDG-raGCFo65PgS\",{\"children\":[[\"$\",\"$L10\",null,{\"children\":\"$L11\"}],[\"$\",\"meta\",null,{\"name\":\"next-size-adjust\",\"content\":\"\"}]]}],null]}],false]],\"m\":\"$undefined\",\"G\":[\"$12\",\"$undefined\"],\"s\":false,\"S\":true}\n"])&lt;/script&gt;<br/>
+  &lt;script&gt;self.__next_f.push([1,"13:\"$Sreact.suspense\"\n14:I[8475,[],\"AsyncMetadata\"]\na:[\"$\",\"$13\",null,{\"fallback\":null,\"children\":[\"$\",\"$L14\",null,{\"promise\":\"$@15\"}]}]\n"])&lt;/script&gt;<br/>
+  &lt;script&gt;self.__next_f.push([1,"d:null\n"])&lt;/script&gt;<br/>
+  &lt;script&gt;self.__next_f.push([1,"11:[[\"$\",\"meta\",\"0\",{\"charSet\":\"utf-8\"}],[\"$\",\"meta\",\"1\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}]]\nc:null\n"])&lt;/script&gt;<br/>
+  &lt;script&gt;self.__next_f.push([1,"15:{\"metadata\":[[\"$\",\"title\",\"0\",{\"children\":\"Sistema de gestion de documentos y entrega\"}],[\"$\",\"meta\",\"1\",{\"name\":\"description\",\"content\":\"Gestion de documentos y entrega\"}],[\"$\",\"link\",\"2\",{\"rel\":\"icon\",\"href\":\"/favicon.ico\",\"type\":\"image/x-icon\",\"sizes\":\"16x16\"}]],\"error\":null,\"digest\":\"$undefined\"}\nf:{\"metadata\":\"$15:metadata\",\"error\":null,\"digest\":\"$undefined\"}\n"])&lt;/script&gt;&lt;next-route-announcer style="position: absolute;"&gt;&lt;/next-route-announcer&gt;<br/>
+ &lt;/body&gt;<br/>
+&lt;/html&gt;</code></pre></div></body></html>

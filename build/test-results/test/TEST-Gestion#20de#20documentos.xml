@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Gestion de documentos" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-07-16T04:31:49.559Z" hostname="alex-SVE14113ELW" time="6.851">
+  <properties/>
+  <testcase name="Subir un documento" classname="Gestion de documentos" time="6.851"/>
+  <system-out><![CDATA[
+Scenario: Subir un documento                                                                                     # src/test/resources/features/entrega_documento.feature:3
+  Given el usuario esta en la pagina de gestion de documentos                                                    # co.edu.udea.calidad.immnosistemas17.stepdefinitions.EntregaDocumentoStepDefinitions.el_usuario_esta_en_la_pagina_de_gestion_de_documentos()
+  When el usuario selecciona "Inteligencia Artificial" y sube el documento "archivo.pdf" con el nombre "exitoso" # co.edu.udea.calidad.immnosistemas17.stepdefinitions.EntregaDocumentoStepDefinitions.el_usuario_selecciona_tipo_y_sube_el_documento_con_nombre(java.lang.String,java.lang.String,java.lang.String)
+  Then el documento "exitoso" aparece en la lista                                                                # co.edu.udea.calidad.immnosistemas17.stepdefinitions.EntregaDocumentoStepDefinitions.el_documento_aparece_en_la_lista(java.lang.String)
+]]></system-out>
+  <system-err><![CDATA[jul. 15, 2025 11:31:52 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+ADVERTENCIA: Unable to find CDP implementation matching 138
+jul. 15, 2025 11:31:52 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+ADVERTENCIA: Unable to find version of CDP to use for 138.0.7204.157. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+</testsuite>
